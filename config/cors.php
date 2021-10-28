@@ -24,6 +24,7 @@ return [
         'PUT',
         'PATCH',
         'DELETE',
+        '*'
     ],
 
     'allowed_origins' => ['*'],
@@ -35,6 +36,7 @@ return [
         'X-Auth-Token',
         'Origin',
         'Authorization',
+        '*'
     ],
 
     'exposed_headers' => [
@@ -44,6 +46,7 @@ return [
         'Expires',
         'Last-Modified',
         'Pragma',
+        'Access-Control-Allow-Origin'
     ],
 
     // 'max_age' => 0,
